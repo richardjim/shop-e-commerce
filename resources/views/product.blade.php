@@ -174,6 +174,7 @@
                                             <add-to-cart-button product-id="{{$product->id}}" user-id="{{auth()->user()->id ?? 0}}" />
                                         </div>
 
+
                                     </div> <!-- single product items -->
                                 </div>
                                 @endforeach
@@ -204,6 +205,8 @@
                                             <span class="regular-price">$59.00</span>
                                             <span class="discount-price">$69.00</span>
                                         </div>
+                                        <hr>
+
                                     </div> <!-- single product items -->
                                 </div>
                                 <div class="col-md-4">
